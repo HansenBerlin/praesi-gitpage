@@ -5,7 +5,7 @@
 <script src="js/d3.v4.min.js"></script>
 <script>
 
-    const width = window.innerWidth;
+    const width = window.innerWidth - 50;
     const height = Math.min(500, window.innerHeight);
 
     const nNodes = 200
@@ -84,15 +84,15 @@
       colorize("yellow")
     })
 
-    var _transitions = [
-      {
-        transitionForward: () => shufleColorAndResize(10, 1, 1),
-        transitionBackward: () => shufleColorAndResize(3, 1, 1),
-        index: 0
-      },
-      {
-        transitionForward: () => shufleColorAndResize(10, 0.1, 6),
-        index: 1
-      },
-    ]
+    //var _transitions = [
+    //  {
+    //    transitionForward: () => shufleColorAndResize(10, 1, 1),
+    //    transitionBackward: () => shufleColorAndResize(3, 1, 1),
+    //    index: 0
+    //  },
+    //  {
+    //    transitionForward: () => shufleColorAndResize(10, 0.1, 6),
+    //    index: 1
+    //  },
+    //]
 </script>
